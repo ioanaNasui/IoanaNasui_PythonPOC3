@@ -7,6 +7,9 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    list_of_lists=[[1,2,3],[4,5,6],[7,8,9]]
+    list=list_of_lists[0]+list_of_lists[1]+list_of_lists[2]
+    print(list)
 
 
 # Press the green button in the gutter to run the script.
